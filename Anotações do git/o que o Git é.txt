@@ -1,0 +1,1 @@
+O Git é um sistema de controlo de versões de código aberto. Facilita este tipo de colaboração em projetos através de um controlo de versões distribuído de ficheiros que residem nos repositórios.

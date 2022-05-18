@@ -1,0 +1,11 @@
+1- Seja Protagonista Neste Botcamp
+1 hora de duração.
+nivel:básico
+
+2-Intrdução à Programação e Pensamentos Computacional.
+5 horas de duração. 
+nivel:básico
+
+3-Introdução ao Git e ao GitHub
+5 horas de duração.
+nivel:básico

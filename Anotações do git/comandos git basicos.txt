@@ -1,0 +1,59 @@
+1-Git init
+
+Para começar um projeto que ainda não seja um repositório (ou repo), o Git Init costuma ser o primeiro comando que você vai usar, pois vai precisar de um subdiretório .git na raiz do seu projeto.
+
+Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.
+
+
+2-Git clone
+
+O Git clone é um comando para baixar o código-fonte existente de um repositório remoto (como o Github, por exemplo).
+
+Existem algumas maneiras de baixar o código-fonte, mas eu prefiro o clone com o modo https:
+
+git clone <https://url-do-link>
+
+
+3-Git status
+
+O comando status do Git fornece algumas informações sobre a branch em que você estiver no momento, como seu nome, se ela está atualizada em relação à master e quais arquivos foram alterados.
+
+git status
+
+
+4-Git add
+
+Quando criamos, modificamos ou excluímos um arquivo, essas alterações ocorrerão em nosso ambiente local e não serão incluídas no próximo commit (a menos que alteremos as configurações).
+
+Precisamos usar o comando git add para incluir as alterações de um arquivo em nosso próximo commit.
+
+Para adicionar apenas um arquivo:
+
+git add <arquivo>
+
+Para adicionar, de uma vez, todos os arquivos modificados:
+
+git add -A
+
+
+5-Git commit
+
+Este comando é como definir um ponto de verificação no processo de desenvolvimento, para o qual você pode voltar mais tarde, se necessário.
+
+git commit -m "mensagem explicando a mudança no código"
+
+
+6-it push
+
+Após confirmar as alterações, a próxima coisa que você deseja fazer é enviar as alterações para o servidor remoto.
+
+O comando git push envia e salva suas confirmações no repositório remoto.
+
+git push <remote> <nome-do-branch>
+
+No entanto, se seu branch for criado recentemente, você também precisará fazer upload do branch com o seguinte comando:
+
+
+7-Git pull
+
+O comando git pull é usado para obter atualizações do repositório remoto. O comando de pull depende do referencial de onde ele foi feito, ou seja, um git pull feito da sua máquina vai puxar informações do repositório original para ela.
